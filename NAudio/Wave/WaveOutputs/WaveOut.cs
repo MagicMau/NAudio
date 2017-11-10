@@ -99,7 +99,7 @@ namespace NAudio.Wave
         {
             this.syncContext = SynchronizationContext.Current;
             // set default values up
-            this.DeviceNumber = 0;
+            this.DeviceNumber = -1;
             this.DesiredLatency = 300;
             this.NumberOfBuffers = 2;
 
